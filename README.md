@@ -1,31 +1,28 @@
-# PDF Attachment Manager
+# 📊 Weight Dashboard
 
-Um componente em **ReactJS + TypeScript** com **Material UI** para upload, gerenciamento e ordenação de arquivos PDF.  
-Ele integra-se a um backend em **Spring Boot**, permitindo salvar metadados dos arquivos e definir propriedades como descrição, ordem e se o anexo é imprimível.
+O **Weight Dashboard** é uma aplicação web simples e responsiva para **monitoramento de peso corporal** ao longo do tempo.  
+Permite inserir, visualizar e analisar a evolução do peso por meio de um **gráfico interativo**, com suporte a **tema claro e escuro (Dark Mode)**.
 
 ---
 
 ## ✨ Funcionalidades
 
-- 📂 Upload automático de arquivos PDF
-- 📝 Adição de descrição personalizada para cada arquivo
-- 🖨️ Definição de arquivos como "Imprimíveis"
-- 🗑️ Remoção de anexos
-- 📋 Listagem em **grid responsivo**
-- ↕️ Ordenação por arrastar e soltar via modal
-- 🎨 Suporte a **dark mode**
-- 🔗 Integração com backend em Spring Boot
+- 📅 **Registro de Pesos** — Adicione novos registros informando data e valor.  
+- 📈 **Visualização em Gráficos** — Veja a evolução do peso de forma clara e interativa.  
+- 🌓 **Modo Claro/Escuro** — Alterne facilmente entre temas para melhor conforto visual.  
+- 💾 **Persistência Local** — Os dados ficam salvos no navegador usando Local Storage.  
+- 📱 **Layout Responsivo** — Adaptado para uso em desktop, tablet e smartphone.  
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-- [ReactJS](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/)
-- [Material UI (MUI)](https://mui.com/)
-- [React Hook Form](https://react-hook-form.com/)
-- [react-sortable-hoc](https://github.com/clauderic/react-sortable-hoc)
-- [Spring Boot](https://spring.io/projects/spring-boot) (backend)
-- [Styled Components](https://styled-components.com/) (customização de estilos)
+- **React** — Criação de componentes e interface interativa.  
+- **Material UI (MUI)** — Componentes visuais modernos e customizáveis.  
+- **Recharts** — Biblioteca de gráficos responsivos.  
+- **Local Storage API** — Armazenamento local de dados.  
+
+---
 
 ---
 
@@ -34,10 +31,10 @@ Ele integra-se a um backend em **Spring Boot**, permitindo salvar metadados dos 
 ### Frontend
 ```bash
 # Clonar repositório
-git clone https://github.com/seu-usuario/pdf-attachment-manager.git
+git clone https://github.com/jcristiano/weight-dashboard.git
 
 # Entrar na pasta
-cd pdf-attachment-manager
+cd weight-dashboard
 
 # Instalar dependências
 npm install
